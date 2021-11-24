@@ -1,0 +1,8 @@
+version: "1.0"
+services: 
+  main:
+    build: .
+    env_file:
+      - .env
+    volumes:
+    - ./mydata:/data # copies the directory ./mydata to /data in the OS
