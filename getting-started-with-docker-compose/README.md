@@ -3,7 +3,7 @@
 - Installs firefox, chromium
 - One demo program (main.py) to pass the arguments
 - `.env` -> environment variable to set arguments to share inside Docker/ Python in Docker
-- 
+- copies files in ./mydata to /data in the container
 
 
 
